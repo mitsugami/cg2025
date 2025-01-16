@@ -1,14 +1,15 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <body>
 
 <h1>CG 復習テスト(2) 座席表</h1>
 
-<p><font size="24pt">下の表から自身の学籍番号を検索し，該当する座席で受験してください．<br />
+<p><font size="6">下の表から自身の学籍番号を検索し，該当する座席で受験してください．<br />
 座席図は<a href="map.png">こちら</a>を参照してください．</font></p>
 
-<p><font size="24pt">検索：
-<input type="text" id="searchInput" placeholder="キーワードで検索" size="24pt">
+<p><font size="6">検索：
+<input type="text" id="searchInput" placeholder="キーワードで検索" style="font-size: 24pt; line-height: 120%; ">
 </font></p>
 
 <script>
@@ -27,7 +28,7 @@ document.getElementById('searchInput').addEventListener('keyup', function() {
 });
 </script>
 
-<table border="1" width="90%" id="myTable" style="font-size: 24pt; line-height: 200%; ">
+<table border="1" width="90%" id="myTable" style="font-size: 24pt; line-height: 120%; ">
 <tr><td width="70%">学籍番号</td><td width="30%">座席</td></tr>
 <tr><td>26002101067</td><td>別室</td></tr>
 <tr><td>26002101210</td><td>別室</td></tr>
