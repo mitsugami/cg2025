@@ -2,13 +2,13 @@
 <html lang="ja">
 <body>
 
-<h1 font-size="48pt">CG 復習テスト(2) 座席表</h1>
+<h1>CG 復習テスト(2) 座席表</h1>
 
-<p><font size="5">下の表から自身の学籍番号を検索し，該当する座席で受験してください．<br />
+<p><font size="6">下の表から自身の学籍番号を検索し，該当する座席で受験してください．<br />
 座席図は<a href="map.png">こちら</a>を参照してください．</font></p>
 
-<p><font size="5">検索：
-<input type="text" id="searchInput" placeholder="キーワードで検索">
+<p><font size="6">検索：
+<input type="text" id="searchInput" placeholder="キーワードで検索" size="6">
 </font></p>
 
 <script>
@@ -26,8 +26,6 @@ document.getElementById('searchInput').addEventListener('keyup', function() {
   }
 });
 </script>
-
-<h3>座席表</h3>
 
 <table border="1" width="90%" id="myTable">
 <tr><td width="70%">学籍番号</td><td width="30%">座席</td></tr>
