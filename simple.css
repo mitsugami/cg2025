@@ -1,14 +1,11 @@
-.allContents {
-  display: flex;
-}
-.header {
-  background-color: #ffe135;
+.title {
+    font-size: 32px;
 }
 
-.footer {
-  background-color: #ffe135;
+.body {
+    font-size: 18px;
 }
-/* 以下を追加 */
+
 /* PC時 */
 @media screen and (min-width: 767px) {
   /*ウィンドウ幅が767px以上の場合に適用*/
