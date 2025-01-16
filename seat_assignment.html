@@ -4,7 +4,7 @@
 <input type="text" id="searchInput" placeholder="キーワードで検索">
 
 <script>
-document.getElementById('myTable').addEventListener('keyup', function() {
+document.getElementById('searchInput').addEventListener('keyup', function() {
   let searchValue = this.value.toLowerCase();
   let tableRows = document.getElementById('myTable').getElementsByTagName('tr');
   
